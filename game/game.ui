@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Game</class>
+ <widget class="QWidget" name="Game">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>832</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Game</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: black;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,8,1">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="leftMargin">
+      <number>200</number>
+     </property>
+     <property name="rightMargin">
+      <number>200</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pushButton_start">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;</string>
+       </property>
+       <property name="text">
+        <string>Почати гру знову</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_4_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white; border-bottom: 3px solid white;border-right: 3px solid white; background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_7_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white; border-right: 3px solid white; background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_9_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white;border-left: 3px solid white;background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_5_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white; border-bottom: 3px solid white;border-left: 3px solid white; border-right: 3px solid white; background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_6_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white; border-bottom: 3px solid white;border-left: 3px solid white;background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_3_cell">
+       <property name="styleSheet">
+        <string notr="true">border-bottom: 3px solid white;border-left: 3px solid white;background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_8_cell">
+       <property name="styleSheet">
+        <string notr="true">border-top: 3px solid white;border-left: 3px solid white; border-right: 3px solid white; background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_2_cell">
+       <property name="styleSheet">
+        <string notr="true">border-bottom: 3px solid white;border-left: 3px solid white; border-right: 3px solid white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_1_cell">
+       <property name="styleSheet">
+        <string notr="true">border-bottom: 3px solid white; border-right: 3px solid white; background-color: black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,0">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="">
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5" stretch=""/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
